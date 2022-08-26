@@ -28,6 +28,7 @@ class _BodyState extends State<Body> {
                 demoCarts.removeAt(index);
               });
             },
+            // background
             background: Container(
               padding: EdgeInsets.symmetric(horizontal: 20),
               decoration: BoxDecoration(
