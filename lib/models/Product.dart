@@ -56,7 +56,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Beautiful and fresh Tomatoes",
+    title: "Fresh Tomatoes",
     price: 50.5,
     description: description,
     rating: 4.1,
@@ -73,7 +73,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Fresh and healthy cucumbers",
+    title: "Fresh cucumbers",
     price: 36.55,
     description: description,
     rating: 4.1,
@@ -99,5 +99,4 @@ List<Product> demoProducts = [
   ),
 ];
 
-const String description =
-    "Fresh and green vegetables from Kibabii garden …";
+const String description = "Fresh and green vegetables from Kibabii garden …";

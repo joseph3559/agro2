@@ -25,7 +25,7 @@ class DiscountBanner extends StatelessWidget {
         TextSpan(
           style: TextStyle(color: Colors.white),
           children: [
-            TextSpan(text: "Kenya Summer offer\n"),
+            TextSpan(text: "#KE Save Pesa yako Offer\n"),
             TextSpan(
               text: "Cashback 20%",
               style: TextStyle(
