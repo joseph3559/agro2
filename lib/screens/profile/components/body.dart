@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:shop_app/screens/help/help_screen.dart';
 import 'package:shop_app/screens/splash/splash_screen.dart';
+import 'package:shop_app/screens/sign_in/sign_in_screen.dart';
 
 import 'profile_menu.dart';
 import 'profile_pic.dart';
@@ -24,21 +26,25 @@ class Body extends StatelessWidget {
             press: () {},
           ),
           ProfileMenu(
-            text: "Settings",
+            text: "How to use Agrimarketing App",
             icon: "assets/icons/Settings.svg",
-            press: () {},
-          ),
-          ProfileMenu(
-            text: "Help Center",
-            icon: "assets/icons/Question mark.svg",
             press: () {
               Navigator.pushNamed(context, SplashScreen.routeName);
             },
           ),
           ProfileMenu(
+            text: "Help Center",
+            icon: "assets/icons/Question mark.svg",
+            press: () {
+              Navigator.pushNamed(context, HelpScreen.routeName);
+            },
+          ),
+          ProfileMenu(
             text: "Log Out",
             icon: "assets/icons/Log out.svg",
-            press: () {},
+            press: () {
+              Navigator.pushNamed(context, SignInScreen.routeName);
+            },
           ),
         ],
       ),
